@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/copy"
+    tools:context="com.example.codetribe.resultsreport.TeacherActivity">
+
+
+    <EditText
+        android:id="@+id/studentno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:hint="Student No."
+        android:textColorHint="#EAD7AC">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:hint="Enter Your Name"
+        android:textColorHint="#EAD7AC" />
+
+    <EditText
+        android:id="@+id/grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:textColorHint="#EAD7AC"
+        android:hint="grade" />
+
+    <EditText
+        android:id="@+id/marks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:hint="Enter Marks"
+        android:textColorHint="#EAD7AC" />
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:hint="subject"
+        android:textColorHint="#EAD7AC" />
+
+    <EditText
+        android:id="@+id/semester"
+        android:textColorHint="#EAD7AC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:hint="semester" />
+
+    <EditText
+        android:id="@+id/comments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:hint="comments"
+        android:textColorHint="#EAD7AC" />
+
+    <EditText
+        android:id="@+id/etID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:textColorHint="#EAD7AC"
+        android:hint="enter student no to delete/update student" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnAddData"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#8B8C89"
+            android:textColor="#E4E3E4"
+            android:text="Add student" />
+
+        <Button
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:text="update student"
+            android:textColor="#E4E3E4"
+            android:background="#132804"
+            android:id="@+id/btnUpdateData"
+            />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:background="#8B8C89"
+            android:textColor="#E4E3E4"
+            android:text="Delete student" />
+
+
+        <Button
+            android:id="@+id/btnViewData"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:background="#132804"
+            android:textColor="#E4E3E4"
+            android:text="View all student" />
+
+    </LinearLayout>
+</LinearLayout>

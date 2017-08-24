@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="etName" type="id" />
+    <item name="etNewEmail" type="id" />
+    <item name="etNewTvShow" type="id" />
+    <item name="btnAddData" type="id" />
+    <item name="btnViewData" type="id" />
+    <item name="btnUpdateData" type="id" />
+    <item name="etID" type="id" />
+</resources>
